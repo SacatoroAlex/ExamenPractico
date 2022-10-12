@@ -12,6 +12,7 @@ app.set('port',process.env.PORT||3000);
 const optionsDB={
     host: 'localhost',
     user: 'root',
+    password:'',
     database: 'cliente',
     port: 3306
 }
