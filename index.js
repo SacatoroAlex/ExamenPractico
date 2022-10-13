@@ -23,9 +23,7 @@ app.use( myconn (mysql, optionsDB,'single'))
 app.use(express.json())
 
 //ruta principal
-app.get('/', (req, res)=> {
-    res.send('Hola mundo')
-})
+
 
 //Enlace del index.js con el de routes.js
 app.use('/',routes)
